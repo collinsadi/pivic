@@ -494,16 +494,7 @@ top: -3px;
     font-family: 'Rubik', sans-serif;
 }
 /* Collins Adi Modified */
-.main-menu ul li /*a::after */{
-  content: "+";
-  margin-left: 10px;
-  color: #F7C301;
-}
-.has-sub a::after {
-    content: "+";
-    margin-left: 10px;
-    color: #F7C301;
-  }
+
 .main-menu ul li:last-child a::after,.main-menu .has-sub ul li a::after {
   display: none;
 }
@@ -5281,12 +5272,7 @@ width: 70px;
 	color:#a2b6d5;
 	display: inline-block;
 }
-.footer-link ul li a::before {
-  content: "+";
-  margin-right: 8px;
-  color: #F7C301;
-  font-size: 18px;
-}
+
 .footer-link ul li a:hover{color: #fff;}
 .footer-link ul li {
 margin-bottom: 10px;
